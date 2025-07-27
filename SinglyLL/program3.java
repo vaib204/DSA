@@ -218,17 +218,17 @@ class program3
     iret = sobj.Count();
     System.out.println("Total linkedlist are :" + iret);
 
-    /*
-     * sobj.DeleteFirst();
-     * sobj.Disply();
-     * iret = sobj.Count();
-     * System.out.println("Total linkedlist are :" + iret);
-     * 
-     * sobj.DeletLast();
-     * sobj.Disply();
-     * iret = sobj.Count();
-     * System.out.println("Total linkedlist are :" + iret);
-     */
+    
+      sobj.DeleteFirst();
+      sobj.Disply();
+      iret = sobj.Count();
+      System.out.println("Total linkedlist are :" + iret);
+      
+      sobj.DeletLast();
+      sobj.Disply();
+      iret = sobj.Count();
+      System.out.println("Total linkedlist are :" + iret);
+     
 
     sobj.InsertAtPos(800, 5);
     sobj.Disply();

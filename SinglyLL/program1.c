@@ -128,7 +128,7 @@ int Count(PNODE first)
   return iCount;
 }
 
-void InsertAtFirst(PPNODE first, int no, int pos)
+void InsertAtPos(PPNODE first, int no, int pos)
 {
   PNODE temp = NULL;
   PNODE newn = NULL;
